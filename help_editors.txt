@@ -1,0 +1,30 @@
+;      open : Opens document in selected folder
+;       new : Creates new document in selected folder
+;      save : Saves current document
+;   explore : Explores folder where current document placed
+;      quit : Quit editor
+;      exit : Same as quit
+;      grid : arguments: 'x = %d', 'y = %d', 'on' or 'off'. Sets the grid width and height or enables/disables grid
+;       rot : arguments: '+', '-' or nothing.
+;1. Changes direction of selected light
+;2. Rotates selected switch around plus, minus or axis contact respectively
+;3. Reverses link
+;    mirror : mirrors the plan
+;     scale : scales the plan
+;      park : arguments: 'add <parkname>', 'del <parkname>', 'select <parkname>', 'set <parkname>' or nothing.
+1. Adds park with name <parkname>
+2. Deletes park with name <parkname>
+3. Selects all elements in park with name <parkname>
+4. Sets the park of selected items
+5. Show all park names
+;        ms : arguments: '<section_name>' or 'del <section_name>.
+;Selects or deletes section with name <section_name>'
+;        in : same as ms
+;        ls : analog to ms
+;        en : same as ls
+;        sw : analog to ms
+;        na : same as sw
+;    rstrdm : resets RDM from selected objects
+;     times : Args: 'on' or 'off'. Print/hide time tables
+;       dbg : debug purpose only
+;      help : List of all commands
